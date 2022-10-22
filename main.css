@@ -1,0 +1,52 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  background-color: antiquewhite;
+  background-image: url("https://thumbs.dreamstime.com/b/cute-guinea-pig-teddy-cartoon-background-seamless-wallpaper-animal-wallpaper-eps-file-format-131209002.jpg");
+  background-repeat: repeat;
+  background-size: contain;
+  background-position: bottom right;
+  min-height: 100vh;
+  padding-top: 20%;
+  padding-left: 10%;
+}
+
+.avatar {
+  margin-bottom: 2%;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 8px 8px;
+}
+
+.name {
+  font-size: 36px;
+  text-transform: uppercase;
+  margin-bottom: 0, 5%;
+}
+
+.about {
+  font-size: 24px;
+  text-transform: capitalize;
+  color: blueviolet;
+}
+
+.contact {
+  margin-top: 5px;
+}
+
+a {
+  background-color: brown;
+  text-decoration: none;
+  color: aliceblue;
+  padding: 8px 8px 8px 8px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .name {
+    font-size: 24px;
+  }
+}
